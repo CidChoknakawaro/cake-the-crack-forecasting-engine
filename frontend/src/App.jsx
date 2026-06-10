@@ -6,7 +6,9 @@ import InputPanel from "./components/InputPanel.jsx";
 import ModelInsights from "./components/ModelInsights.jsx";
 import ScenarioComparison from "./components/ScenarioComparison.jsx";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "http://127.0.0.1:8000";
+const API_BASE =
+  import.meta.env.VITE_API_BASE ||
+  (import.meta.env.PROD ? "/_/backend" : "http://127.0.0.1:8000");
 
 const fallbackOptions = {
   branch_type: ["Mall", "CBD / Office", "Neighborhood", "Transit", "Hospital", "University Area"],

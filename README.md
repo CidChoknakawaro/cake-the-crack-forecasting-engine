@@ -150,6 +150,15 @@ Build check:
 npm run build
 ```
 
+## Deploy on Vercel
+
+This repo includes a root `vercel.json` configured for Vercel multi-service deployment:
+
+- `frontend/` is deployed as the Vite app at `/`.
+- `backend/` is deployed behind `/_/backend`.
+
+In production, the frontend defaults API calls to `/_/backend`, so no `VITE_API_BASE` is required for the Vercel multi-service setup. For local development, it defaults to `http://127.0.0.1:8000`.
+
 ## Example Input
 
 ```json
