@@ -294,6 +294,14 @@ export default function App() {
             Forecast which cake promotions are most likely to drive revenue, ROI, and Gen Z
             conversion.
           </p>
+          <a
+            className="campaign-tag"
+            href="https://www.instagram.com/explore/tags/CrackTheCakebyCTT/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            #CrackTheCakebyCTT
+          </a>
         </div>
         <div className="header-stats">
           {headerStats.map(([label, value]) => (
