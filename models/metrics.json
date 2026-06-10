@@ -1,0 +1,60 @@
+{
+  "training_data_size": 2500,
+  "last_trained_date": "2026-06-10 13:43",
+  "model_type": "RandomForestRegressor revenue, GradientBoostingRegressor ROI, RandomForestClassifier success",
+  "revenue_mae": 43410.05,
+  "revenue_r2": 0.8776,
+  "roi_mae": 0.372,
+  "roi_r2": 0.7645,
+  "success_accuracy": 0.8091,
+  "feature_importance": [
+    {
+      "feature": "campaign_duration_days",
+      "importance": 0.3314
+    },
+    {
+      "feature": "website_visits",
+      "importance": 0.2397
+    },
+    {
+      "feature": "branch_capacity",
+      "importance": 0.2122
+    },
+    {
+      "feature": "base_price",
+      "importance": 0.0564
+    },
+    {
+      "feature": "campaign_cost",
+      "importance": 0.0432
+    },
+    {
+      "feature": "estimated_foot_traffic",
+      "importance": 0.0387
+    },
+    {
+      "feature": "social_media_spend",
+      "importance": 0.0206
+    },
+    {
+      "feature": "season_Normal",
+      "importance": 0.0161
+    },
+    {
+      "feature": "gross_margin_percent",
+      "importance": 0.0137
+    },
+    {
+      "feature": "discount_percent",
+      "importance": 0.0116
+    },
+    {
+      "feature": "personalized_bundle",
+      "importance": 0.0088
+    },
+    {
+      "feature": "customization_available",
+      "importance": 0.0076
+    }
+  ]
+}
